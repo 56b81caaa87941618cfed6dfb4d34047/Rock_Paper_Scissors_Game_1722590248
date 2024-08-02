@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "I understand you want the code to work, I will work on it.",
+        "message_id": "guest02082024092545",
+        "timestamp": "02082024092545",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "make this code work",
         "message_id": "guest02082024092545",
