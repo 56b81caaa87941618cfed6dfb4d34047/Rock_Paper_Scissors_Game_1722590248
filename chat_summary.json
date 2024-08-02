@@ -1,64 +1,98 @@
 [
     {
-        "role": "makeinfinite",
-        "content": "Can you describe the project a bit more?",
-        "message_id": "project_init",
-        "timestamp": "1722590249",
+        "role": "chat_acknowledge",
+        "content": "Got it, I'll work on fixing the box display.",
+        "message_id": "guest02082024092653",
+        "timestamp": "02082024092654",
         "component_file_name": "",
-        "div_id": ""
-    },
-    {
-        "role": "user",
-        "content": "make the ackground to be way cooler, with dynamic title and so on",
-        "timestamp": "02082024092505",
-        "message_id": "guest02082024092504"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Great idea! I'll work on creating a dynamic background with a cool title.",
-        "timestamp": "02082024092505",
-        "message_id": "guest02082024092504"
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What kind of dynamic effects would you like to implement on the title?\", \"option1\": \"Text animation (e.g., shimmer, wave effect)\", \"option2\": \"Interactive effects (e.g., title changes color or size on hover)\"}, {\"question 2\": \"Could you specify the theme you have in mind for the cooler background?\", \"option1\": \"Animated or static illustrations (e.g., rock, paper, scissors themed background)\", \"option2\": \"A more sophisticated graphic design (e.g., abstract patterns, gradients)\"}], \"input_token_count\": 268, \"output_token_count\": 124, \"time_taken\": \"0:00:05.149837\"}",
-        "timestamp": "02082024092510",
-        "message_id": "guest02082024092504"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a dynamic, animated background that changes based on the player's actions or game outcomes\", \"checked\": true}, {\"feature\": \"Implement a customizable title animation that players can interact with on the home screen\", \"checked\": true}, {\"feature\": \"Incorporate ambient background music that dynamically adjusts to game states (win, lose, draw)\", \"checked\": false}, {\"feature\": \"Enable a 'Night Mode' with a darker, more subdued background for low-light environments\", \"checked\": false}, {\"feature\": \"Provide background theme options allowing users to choose their preferred visual style\", \"checked\": false}, {\"feature\": \"Add subtle particle effects (like floating embers or glimmering lights) to the background for added coolness\", \"checked\": true}], \"input_token_count\": 222, \"output_token_count\": 161, \"time_taken\": \"0:00:06.674505\"}",
-        "timestamp": "02082024092512",
-        "message_id": "guest02082024092504"
-    },
-    {
-        "role": "user",
-        "content": "make this code work",
-        "timestamp": "02082024092545",
-        "message_id": "guest02082024092545"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "I understand you want the code to work, I will work on it.",
-        "timestamp": "02082024092545",
-        "message_id": "guest02082024092545"
-    },
-    {
-        "role": "user",
-        "content": "hello?",
-        "timestamp": "02082024092638",
-        "message_id": "guest02082024092637"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Hello! How can I assist you with your project?",
-        "timestamp": "02082024092638",
-        "message_id": "guest02082024092637"
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "user",
         "content": "this box is not showing anything, make it work",
+        "message_id": "guest02082024092653",
         "timestamp": "02082024092653",
+        "component_file_name": "simple_hero_component_1722590561",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Hello! How can I assist you with your project?",
+        "message_id": "guest02082024092637",
+        "timestamp": "02082024092638",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "hello?",
+        "message_id": "guest02082024092637",
+        "timestamp": "02082024092638",
+        "component_file_name": "simple_hero_component_1722590561",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "I understand you want the code to work, I will work on it.",
+        "message_id": "guest02082024092545",
+        "timestamp": "02082024092545",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "make this code work",
+        "message_id": "guest02082024092545",
+        "timestamp": "02082024092545",
+        "component_file_name": "simple_hero_component_1722590561",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a dynamic, animated background that changes based on the player's actions or game outcomes\", \"checked\": true}, {\"feature\": \"Implement a customizable title animation that players can interact with on the home screen\", \"checked\": true}, {\"feature\": \"Incorporate ambient background music that dynamically adjusts to game states (win, lose, draw)\", \"checked\": false}, {\"feature\": \"Enable a 'Night Mode' with a darker, more subdued background for low-light environments\", \"checked\": false}, {\"feature\": \"Provide background theme options allowing users to choose their preferred visual style\", \"checked\": false}, {\"feature\": \"Add subtle particle effects (like floating embers or glimmering lights) to the background for added coolness\", \"checked\": true}], \"input_token_count\": 222, \"output_token_count\": 161, \"time_taken\": \"0:00:06.674505\"}",
+        "message_id": "guest02082024092504",
+        "timestamp": "02082024092512",
+        "component_file_name": "simple_hero_component_1722590561",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What kind of dynamic effects would you like to implement on the title?\", \"option1\": \"Text animation (e.g., shimmer, wave effect)\", \"option2\": \"Interactive effects (e.g., title changes color or size on hover)\"}, {\"question 2\": \"Could you specify the theme you have in mind for the cooler background?\", \"option1\": \"Animated or static illustrations (e.g., rock, paper, scissors themed background)\", \"option2\": \"A more sophisticated graphic design (e.g., abstract patterns, gradients)\"}], \"input_token_count\": 268, \"output_token_count\": 124, \"time_taken\": \"0:00:05.149837\"}",
+        "message_id": "guest02082024092504",
+        "timestamp": "02082024092510",
+        "component_file_name": "simple_hero_component_1722590561",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Great idea! I'll work on creating a dynamic background with a cool title.",
+        "message_id": "guest02082024092504",
+        "timestamp": "02082024092505",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "make the ackground to be way cooler, with dynamic title and so on",
+        "message_id": "guest02082024092504",
+        "timestamp": "02082024092505",
+        "component_file_name": "simple_hero_component_1722590561",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "Can you describe the project a bit more?",
+        "timestamp": "02082024092654",
         "message_id": "guest02082024092653"
     }
 ]
