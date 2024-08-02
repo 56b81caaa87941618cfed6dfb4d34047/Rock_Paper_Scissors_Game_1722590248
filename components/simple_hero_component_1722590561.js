@@ -1,19 +1,20 @@
 /* Summary: The hero component contains the following two parts:
-- To the left: There is a hero title text in h1 heading. Underneath it, a hero subtitle line of text. All this text is left-aligned. Underneath this, there are two white buttons in the same line, both justified in alignment.
+- To the left: There is a dynamic hero title text in h1 heading. Underneath it, a dynamic hero subtitle line of text. All this text is left-aligned and animated. Underneath this, there are two white buttons in the same line, both justified in alignment.
 - To the right: There is an image relevant to the app.
+- The background is a cool, animated gradient.
 */
 Vue.component("simple_hero_component_1722590561", {
     template: `
-        <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1">
+        <section id="hero-section" class="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 animate-gradient-x flex-1">
             <div id="hero-container" class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
                 <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7">
                     
                     <div id="hero-title-container-text" class="flex">
-                        <h1 id="hero-title" class="flex-1 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Rock Paper Scissors Showdown!</h1>
+                        <h1 id="hero-title" class="flex-1 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-white animate-pulse">{{ heroTitle }}</h1>
                     </div>
 
                     <div id="hero-subtitle-container" class="flex">
-                        <p id="hero-subtitle" class="flex-1 max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">The Ultimate Classic Game Reimagined</p>
+                        <p id="hero-subtitle" class="flex-1 max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl">{{ heroSubtitle }}</p>
                     </div>
 
                     <div id="hero-buttons-container" class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
@@ -37,6 +38,25 @@ Vue.component("simple_hero_component_1722590561", {
         return {
             expanded: false,
             tab: null,
+            heroTitle: 'Rock Paper Scissors Showdown!',
+            heroSubtitle: 'The Ultimate Classic Game Reimagined',
+            titles: ['Rock Paper Scissors Showdown!', 'Battle of Hands!', 'Epic RPS Duel!'],
+            subtitles: ['The Ultimate Classic Game Reimagined', 'Test Your Strategy and Luck', 'Are You Ready for the Challenge?']
         };
     },
+    mounted() {
+        this.animateTitles();
+    },
+    methods: {
+        // Start of animateTitles method
+        animateTitles() {
+            let index = 0;
+            setInterval(() => {
+                this.heroTitle = this.titles[index];
+                this.heroSubtitle = this.subtitles[index];
+                index = (index + 1) % this.titles.length;
+            }, 3000);
+        }
+        // End of animateTitles method
+    }
 });
