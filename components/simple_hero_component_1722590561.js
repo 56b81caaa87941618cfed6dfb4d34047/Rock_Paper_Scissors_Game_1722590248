@@ -1,8 +1,3 @@
-/* Summary: The hero component contains the following two parts:
-- To the left: There is a dynamic hero title text in h1 heading. Underneath it, a dynamic hero subtitle line of text. All this text is left-aligned and animated. Underneath this, there are two white buttons in the same line, both justified in alignment.
-- To the right: There is an image relevant to the app.
-- The background is a cool, animated gradient.
-*/
 Vue.component("simple_hero_component_1722590561", {
     template: `
         <section id="hero-section" class="bg-gradient-to-br from-indigo-900 via-purple-800 to-pink-700 animate-gradient-x flex-1 min-h-screen">
@@ -19,11 +14,11 @@ Vue.component("simple_hero_component_1722590561", {
 
                     <div id="hero-buttons-container" class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                         <div id="hero-button-1-container" class="flex">
-                            <a id="hero-button-1" href="https://github.com/themesberg/landwind" class="flex-1 items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-white bg-pink-600 rounded-lg sm:w-auto hover:bg-pink-700 focus:ring-4 focus:ring-pink-300 transition-all duration-300">Play Now</a>
+                            <a id="hero-button-1" href="#" class="flex-1 items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-white bg-pink-600 rounded-lg sm:w-auto hover:bg-pink-700 focus:ring-4 focus:ring-pink-300 transition-all duration-300">Play Now</a>
                         </div>
 
                         <div id="hero-button-2-container" class="flex">
-                            <a id="hero-button-2" href="https://www.figma.com/community/file/1125744163617429490" class="flex-1 items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-white bg-transparent border border-white rounded-lg sm:w-auto hover:bg-white hover:text-purple-800 focus:ring-4 focus:ring-purple-300 transition-all duration-300">Learn the Rules</a>
+                            <a id="hero-button-2" href="#" class="flex-1 items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-white bg-transparent border border-white rounded-lg sm:w-auto hover:bg-white hover:text-purple-800 focus:ring-4 focus:ring-purple-300 transition-all duration-300">Learn the Rules</a>
                         </div>
                     </div>
                     
@@ -36,8 +31,6 @@ Vue.component("simple_hero_component_1722590561", {
     `,
     data() {
         return {
-            expanded: false,
-            tab: null,
             heroTitle: 'Rock Paper Scissors Showdown!',
             heroSubtitle: 'The Ultimate Classic Game Reimagined',
             titles: ['Rock Paper Scissors Showdown!', 'Battle of Hands!', 'Epic RPS Duel!'],
