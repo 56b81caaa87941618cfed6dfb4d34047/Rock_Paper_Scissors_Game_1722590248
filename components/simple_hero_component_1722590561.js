@@ -23,8 +23,8 @@ Vue.component("simple_hero_component_1722590561", {
                     </div>
                     
                 </div>
-                <div id="hero-image-container" class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                    <img id="hero-image" src="./images/hero.png" alt="hero image">
+                <div id="hero-image-container" class="lg:mt-0 lg:col-span-5 lg:flex">
+                    <img id="hero-image" src="./images/hero.png" alt="hero image" class="w-full h-auto">
                 </div>
             </div>
         </section>            
