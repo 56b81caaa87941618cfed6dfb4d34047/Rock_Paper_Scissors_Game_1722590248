@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "hello?",
+        "message_id": "guest02082024092637",
+        "timestamp": "02082024092638",
+        "component_file_name": "simple_hero_component_1722590561",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "I understand you want the code to work, I will work on it.",
         "message_id": "guest02082024092545",
