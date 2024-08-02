@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "make the ackground to be way cooler, with dynamic title and so on",
+        "message_id": "guest02082024092504",
+        "timestamp": "02082024092505",
+        "component_file_name": "simple_hero_component_1722590561",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "makeinfinite",
         "content": "Can you describe the project a bit more?",
         "message_id": "project_init",
