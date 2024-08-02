@@ -54,5 +54,11 @@
         "content": "Hello! How can I assist you with your project?",
         "timestamp": "02082024092638",
         "message_id": "guest02082024092637"
+    },
+    {
+        "role": "user",
+        "content": "this box is not showing anything, make it work",
+        "timestamp": "02082024092653",
+        "message_id": "guest02082024092653"
     }
 ]
