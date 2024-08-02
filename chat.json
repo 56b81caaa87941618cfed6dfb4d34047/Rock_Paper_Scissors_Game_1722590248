@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Great idea! I'll work on creating a dynamic background with a cool title.",
+        "message_id": "guest02082024092504",
+        "timestamp": "02082024092505",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "make the ackground to be way cooler, with dynamic title and so on",
         "message_id": "guest02082024092504",
