@@ -48,5 +48,11 @@
         "content": "hello?",
         "timestamp": "02082024092638",
         "message_id": "guest02082024092637"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Hello! How can I assist you with your project?",
+        "timestamp": "02082024092638",
+        "message_id": "guest02082024092637"
     }
 ]
