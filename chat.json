@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What kind of dynamic effects would you like to implement on the title?\", \"option1\": \"Text animation (e.g., shimmer, wave effect)\", \"option2\": \"Interactive effects (e.g., title changes color or size on hover)\"}, {\"question 2\": \"Could you specify the theme you have in mind for the cooler background?\", \"option1\": \"Animated or static illustrations (e.g., rock, paper, scissors themed background)\", \"option2\": \"A more sophisticated graphic design (e.g., abstract patterns, gradients)\"}], \"input_token_count\": 268, \"output_token_count\": 124, \"time_taken\": \"0:00:05.149837\"}",
+        "message_id": "guest02082024092504",
+        "timestamp": "02082024092510",
+        "component_file_name": "simple_hero_component_1722590561",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Great idea! I'll work on creating a dynamic background with a cool title.",
         "message_id": "guest02082024092504",
