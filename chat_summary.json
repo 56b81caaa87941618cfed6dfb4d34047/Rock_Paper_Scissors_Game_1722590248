@@ -12,5 +12,11 @@
         "content": "make the ackground to be way cooler, with dynamic title and so on",
         "timestamp": "02082024092505",
         "message_id": "guest02082024092504"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Great idea! I'll work on creating a dynamic background with a cool title.",
+        "timestamp": "02082024092505",
+        "message_id": "guest02082024092504"
     }
 ]
